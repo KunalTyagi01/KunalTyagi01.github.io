@@ -21,25 +21,4 @@ function switchTheme(e) {
         //   switchTextColor('light');
     }
 }
-
-// function switchTextColor(currTheme){
-
-//     if(currTheme=='light'){
-//         document.getElementById("swiper-container-h1").style.color = 'black';
-//         document.getElementById("details-h3-1").style.color = 'black';
-//         document.getElementById("details-h3-2").style.color = 'black';
-//         document.getElementById("details-h3-3").style.color = 'black';
-//         document.getElementById("details-h3-4").style.color = 'black';
-//         document.getElementById("details-h3-5").style.color = 'black';
-//         document.getElementById("details-h3-6").style.color = 'black';
-//     }else{
-//         document.getElementById("swiper-container-h1").style.color = 'white';
-//         document.getElementById("details-h3-1").style.color = 'white';
-//         document.getElementById("details-h3-2").style.color = 'white';
-//         document.getElementById("details-h3-3").style.color = 'white';
-//         document.getElementById("details-h3-4").style.color = 'white';
-//         document.getElementById("details-h3-5").style.color = 'white';
-//         document.getElementById("details-h3-6").style.color = 'white';
-//         }
-//     }
 toggleSwitch.addEventListener('change', switchTheme, false);

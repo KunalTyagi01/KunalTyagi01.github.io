@@ -29,14 +29,6 @@ Object.assign(document.getElementById(prevEle+"-line").style,fillInputStyle);
   }
 }
 prevEle = ""+str+"";
-
-    // document.forms["contact-us-form"]["fname"].style = fillInputStyle;
-    // document.write("Hello World!");
-    // document.getElementById("fname-input").background-color = "red"; //fillInputStyle;
-    // setAttribute("style","height: 100%");
-    // document.getElementsByClassName("row100").setAttribute("style","height: 100%");
-    // document.getElementById("fname-inputBox").style = fillInputStyle;
-    // document.getElementById("fname-line").style = fillInputStyle;
   
 }
 
